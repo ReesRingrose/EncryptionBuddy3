@@ -68,6 +68,7 @@ public class decrypt extends Activity
             if (c < 'A' || c > 'Z') continue;
             res += (char)((c - key.charAt(j) + 26) % 26 + 'A');
             j = ++j % key.length();
+            //yes sir
         }
         return res;
     }
