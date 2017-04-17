@@ -74,8 +74,8 @@
       <file leaf-file-name="decrypt.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/comreesringrose/httpsgithub/encryptionbuddy/decrypt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+            <state relative-caret-position="202">
+              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -2961,8 +2961,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/comreesringrose/httpsgithub/encryptionbuddy/decrypt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+        <state relative-caret-position="202">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
