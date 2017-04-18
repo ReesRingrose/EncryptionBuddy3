@@ -15,7 +15,7 @@ import android.widget.RelativeLayout;
 import android.os.Handler;
 public class MainActivity extends AppCompatActivity {
 
-    private static int SPLASH_TIME_OUT = 4000;
+    private static int SPLASH_TIME_OUT = 3000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
 
-                Intent homeIntent = new Intent(MainActivity.this,HomeActivity.class);
+                Intent homeIntent = new Intent(MainActivity.this,HomeActivity.java);
                 startActivity(homeIntent);
                 finish();
             }
