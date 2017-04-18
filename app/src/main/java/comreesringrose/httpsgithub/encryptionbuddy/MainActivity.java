@@ -13,34 +13,16 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.RelativeLayout;
 import android.os.Handler;
+
 public class MainActivity extends AppCompatActivity {
 
-    private static int SPLASH_TIME_OUT = 3000;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        new Handler().postDelayed(new Runnable()
-        {
-            @Override
-            public void run() {
-                Intent HomeIntent = new Intent(MainActivity.this,HomeActivity.class);
-                startActivity(HomeIntent);
-                finish();
-            }
-        },SPLASH_TIME_OUT);
 
-        /*
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });   */
     }
 
     @Override
