@@ -18,8 +18,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-            <activity android:name=".SecondScreen"  />
-        <activity android:name=".decrypt"/>
+        <activity android:name=".SecondScreen" />
+        <activity android:name=".decrypt" />
+        <activity android:name=".HomeActivity"></activity>
     </application>
 
 </manifest>
