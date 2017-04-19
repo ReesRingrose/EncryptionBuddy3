@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        RelativeLayout content_main = (RelativeLayout) findViewById(R.id.content_main);
+      //  RelativeLayout content_main = (RelativeLayout) findViewById(R.id.content_main);
         switch (item.getItemId()) {
             case R.id.action_settings:
 
