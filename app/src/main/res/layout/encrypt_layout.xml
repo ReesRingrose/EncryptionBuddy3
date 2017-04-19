@@ -11,7 +11,7 @@
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/txtInput"
-        android:hint="inputplease" />
+        android:hint="enter message to encrypt" />
 
     <EditText
         android:layout_width="match_parent"
@@ -19,7 +19,7 @@
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/passInput"
-        android:hint="key input"
+        android:hint="password to encrypt "
         android:textSize="30sp" />
 
     <Button
