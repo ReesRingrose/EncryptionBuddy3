@@ -1,9 +1,13 @@
 package comreesringrose.httpsgithub.encryptionbuddy;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.view.Gravity;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -21,7 +25,8 @@ import static android.R.id.list;
  * Created by Rees on 11/04/2017.
  */
 
-public class SecondScreen extends Activity{
+public class SecondScreen extends AppCompatActivity
+{
 
 
     @Override
@@ -36,6 +41,36 @@ public class SecondScreen extends Activity{
 
     public String stringInput;
    // Button button = new  (Button) findViewById(R.id.button1);
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        //  RelativeLayout content_main = (RelativeLayout) findViewById(R.id.);
+        switch (item.getItemId()) {
+            case R.id.action_settings:
+
+                return true;
+            case R.id.action_encryption:
+
+                Intent intent = new Intent(this,SecondScreen.class);
+                startActivity(intent);
+
+                return true;
+            case R.id.action_decryption:
+
+                Intent intent2 = new Intent(this,decrypt.class);
+                startActivity(intent2);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
 
 
           public void buttonOnClick2(View v)

@@ -25,7 +25,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="0512d8a7b0ec0b2a672420d19de71b709e248928">
+        sha1="21c44b49c47ad9d934401ae5e87ce3911863bde9">
         <dex dex="C:\Users\Rees\AndroidStudioProjects\EncryptionBuddy3\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_92084a1ea2750b21d93c30fbda6d19f0a2380a2d\classes.dex" />
     </item>
     <item
@@ -133,7 +133,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="a4c401fa96241bb0c7c3b69b2f42fc6ea257e279">
+        sha1="460888a89b352b8b2abdd76b604155baadeeb9fd">
         <dex dex="C:\Users\Rees\AndroidStudioProjects\EncryptionBuddy3\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8b08854dd96e6b76373f0d6e1372fe841723571c\classes.dex" />
     </item>
 
