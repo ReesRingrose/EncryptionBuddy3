@@ -35,7 +35,7 @@
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/textOutput"
-        android:hint="output"
+
         android:layout_weight="0.04" />
 
 </LinearLayout>

@@ -33,6 +33,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/output"
-        android:hint="output"
         android:textSize="30sp" />
 </LinearLayout>
