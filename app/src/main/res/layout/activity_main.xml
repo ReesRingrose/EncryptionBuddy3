@@ -8,4 +8,45 @@
     tools:context="comreesringrose.httpsgithub.encryptionbuddy.MainActivity"
     android:background="@drawable/newback">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="153dp"
+            app:srcCompat="@drawable/lockclosed"
+            android:id="@+id/imageView6"
+            android:onClick="decryptbutton"/>
+
+        <TextView
+            android:text="@string/action_decryption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:onClick="decryptbutton"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="164dp"
+            app:srcCompat="@drawable/lockopened"
+            android:id="@+id/imageView7"
+            android:onClick="encryptbutton"/>
+
+
+        <TextView
+            android:text="@string/action_encryption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:onClick="encryptbutton"/>
+    </LinearLayout>
+
 </android.support.design.widget.CoordinatorLayout>
