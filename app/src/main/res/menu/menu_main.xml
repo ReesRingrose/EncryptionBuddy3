@@ -5,7 +5,7 @@
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="1"
-        android:title="@string/action_settings"
+        android:title="@string/Main_Menu"
         app:showAsAction="never" />
 
     <item
@@ -18,5 +18,10 @@
         android:id="@+id/action_decryption"
         android:orderInCategory="3"
         android:title="@string/action_decryption"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="4"
+        android:title="@string/how_to_use"
         app:showAsAction="never" />
 </menu>

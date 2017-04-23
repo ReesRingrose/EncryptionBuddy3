@@ -15,7 +15,7 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="153dp"
+            android:layout_height="125dp"
             app:srcCompat="@drawable/lockclosed"
             android:id="@+id/imageView6"
             android:onClick="decryptbutton"/>
@@ -47,6 +47,23 @@
             android:textColor="@color/black"
             android:textAlignment="center"
             android:onClick="encryptbutton"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            app:srcCompat="@drawable/light"
+            android:id="@+id/imageView"
+            android:onClick="about"/>
+
+        <TextView
+            android:text="@string/how_to_use"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView4"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:onClick="about"/>
     </LinearLayout>
 
 </android.support.design.widget.CoordinatorLayout>

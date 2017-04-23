@@ -54,6 +54,8 @@ public class SecondScreen extends AppCompatActivity
         //  RelativeLayout content_main = (RelativeLayout) findViewById(R.id.);
         switch (item.getItemId()) {
             case R.id.action_settings:
+                Intent intent3 = new Intent(this,MainActivity.class);
+                        startActivity(intent3);
 
                 return true;
             case R.id.action_encryption:
@@ -66,6 +68,10 @@ public class SecondScreen extends AppCompatActivity
 
                 Intent intent2 = new Intent(this,decrypt.class);
                 startActivity(intent2);
+                return true;
+            case R.id.action_about:
+                Intent intent4 = new Intent(this,about.class);
+                startActivity(intent4);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

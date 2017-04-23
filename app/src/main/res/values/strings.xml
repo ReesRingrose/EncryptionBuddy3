@@ -10,5 +10,7 @@
     <string name="go_get_the_string">go and get the name</string>
     <string name="go_get_it">go get it</string>
     <string name="the_users_name_was">The Users Name was</string>
+    <string name="Main_Menu">Main Menu</string>
+    <string name="how_to_use">how to use this app</string>
 
 </resources>

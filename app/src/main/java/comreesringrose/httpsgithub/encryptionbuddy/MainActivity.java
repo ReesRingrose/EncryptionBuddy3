@@ -47,6 +47,11 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent2 = new Intent(this,decrypt.class);
                 startActivity(intent2);
                 return true;
+
+            case R.id.action_about:
+                Intent intent4 = new Intent(this,about.class);
+                startActivity(intent4);
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -62,6 +67,12 @@ public class MainActivity extends AppCompatActivity {
     {
         Intent intent = new Intent(this,SecondScreen.class);
         startActivity(intent);
+    }
+    public void about(View v)
+    {
+        Intent intent4 = new Intent(this,about.class);
+        startActivity(intent4);
+
     }
 
 }
