@@ -32,11 +32,11 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="164dp"
+            android:layout_height="148dp"
             app:srcCompat="@drawable/lockopened"
             android:id="@+id/imageView7"
             android:onClick="decryptbutton"/>
-
+ 
 
         <TextView
             android:text="@string/action_decryption"
