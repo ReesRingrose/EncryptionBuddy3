@@ -18,35 +18,35 @@
             android:layout_height="125dp"
             app:srcCompat="@drawable/lockclosed"
             android:id="@+id/imageView6"
-            android:onClick="decryptbutton"/>
+            android:onClick="encryptbutton"/>
 
         <TextView
-            android:text="@string/action_decryption"
+            android:text="@string/action_encryption"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView"
             android:textSize="30sp"
             android:textColor="@color/black"
             android:textAlignment="center"
-            android:onClick="decryptbutton"/>
+            android:onClick="encryptbutton"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="164dp"
             app:srcCompat="@drawable/lockopened"
             android:id="@+id/imageView7"
-            android:onClick="encryptbutton"/>
+            android:onClick="decryptbutton"/>
 
 
         <TextView
-            android:text="@string/action_encryption"
+            android:text="@string/action_decryption"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView1"
             android:textSize="30sp"
             android:textColor="@color/black"
             android:textAlignment="center"
-            android:onClick="encryptbutton"/>
+            android:onClick="decryptbutton"/>
 
         <ImageView
             android:layout_width="match_parent"

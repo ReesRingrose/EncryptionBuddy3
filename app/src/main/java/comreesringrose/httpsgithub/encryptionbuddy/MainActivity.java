@@ -57,15 +57,15 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void decryptbutton(View v)
+    public void encryptbutton(View v)
     {
-        Intent intent2 = new Intent(this,decrypt.class);
+        Intent intent2 = new Intent(this,SecondScreen.class);
         startActivity(intent2);
     }
 
-    public void encryptbutton(View v)
+    public void decryptbutton(View v)
     {
-        Intent intent = new Intent(this,SecondScreen.class);
+        Intent intent = new Intent(this,decrypt.class);
         startActivity(intent);
     }
     public void about(View v)
