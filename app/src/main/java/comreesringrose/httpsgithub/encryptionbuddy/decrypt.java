@@ -79,9 +79,9 @@ public class decrypt extends AppCompatActivity
 
         input = (EditText) findViewById(R.id.inputtext);
         passInput = (EditText) findViewById(R.id.enterPassword);
-        if (input == null || passInput == null )
+        if (input.getText().toString().trim().length() <= 0 || passInput.getText().toString().trim().length() <= 0 )
         {
-            Toast.makeText(this, "You did not enter any input", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "enter both the encrypted text and the password", Toast.LENGTH_SHORT).show();
 
 
         }

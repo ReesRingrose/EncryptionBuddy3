@@ -66,12 +66,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecondScreen.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SecondScreen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/comreesringrose/httpsgithub/encryptionbuddy/SecondScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+            <state relative-caret-position="305">
+              <caret line="89" column="12" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="114" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="decrypt.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/comreesringrose/httpsgithub/encryptionbuddy/decrypt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1897,7 +1909,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/decrypt_layout.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/comreesringrose/httpsgithub/encryptionbuddy/decrypt.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/about.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/comreesringrose/httpsgithub/encryptionbuddy/abouts.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" />
@@ -1907,6 +1918,7 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/encrypt_layout.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/comreesringrose/httpsgithub/encryptionbuddy/SecondScreen.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/comreesringrose/httpsgithub/encryptionbuddy/decrypt.java" />
       </list>
     </option>
   </component>
@@ -2888,6 +2900,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2925,13 +2938,6 @@
             <element signature="e#931#958#0" expanded="true" />
             <element signature="e#1556#1583#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/comreesringrose/httpsgithub/encryptionbuddy/decrypt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="83" column="91" selection-start-line="83" selection-start-column="91" selection-end-line="83" selection-end-column="91" />
         </state>
       </provider>
     </entry>
@@ -3009,9 +3015,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/comreesringrose/httpsgithub/encryptionbuddy/SecondScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        <state relative-caret-position="305">
+          <caret line="89" column="12" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="114" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/comreesringrose/httpsgithub/encryptionbuddy/decrypt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
