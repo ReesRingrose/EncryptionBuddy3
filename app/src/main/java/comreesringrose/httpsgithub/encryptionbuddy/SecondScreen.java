@@ -19,6 +19,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.Locale;
 
+import static android.R.id.input;
 import static android.R.id.list;
 
 /**
@@ -86,9 +87,9 @@ public class SecondScreen extends AppCompatActivity
         passInput = (EditText) findViewById(R.id.passInput);
 
 
-        if (input == null || passInput == null )
+        if (input.getText().toString().trim().length() <= 0 || passInput.getText().toString().trim().length() <= 0 )
         {
-            Toast.makeText(this, "You did not enter any input", Toast.LENGTH_SHORT).show();
+            Toast.makeText(SecondScreen.this, "enter both a password and a message", Toast.LENGTH_SHORT).show();
 
 
         }
