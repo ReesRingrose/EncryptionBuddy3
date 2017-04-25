@@ -2,9 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-
-
-    >
+    android:background="@color/colorPrimaryDark">
 
     <TextView
         android:text="@string/action_decryption"
@@ -13,35 +11,44 @@
         android:id="@+id/textView3"
         android:textSize="30sp"
         android:textAlignment="center"
-        android:textColor="@color/colorPrimaryDark"/>
+        android:textColor="@color/black"/>
 
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/inputtext"
-        android:hint="enter encrypted text" />
+        android:hint="enter encrypted text"
+        android:background="#ffffff"
+        android:layout_margin="20dp"
+        android:textAlignment="center"/>
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/enterPassword"
-        android:hint="enter password" />
+        android:hint="enter password"
+        android:background="#ffffff"
+        android:layout_margin="20dp"
+        android:textAlignment="center"/>
 
     <Button
         android:text="enter details"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button1"
-        android:onClick="buttonOnClick1"/>
+        android:onClick="buttonOnClick1"
+        android:layout_margin="30dp"/>
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:id="@+id/output"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:layout_margin="20dp"/>
 </LinearLayout>

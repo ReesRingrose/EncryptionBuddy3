@@ -21,10 +21,11 @@
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/txtInput"
-        android:textSize="30sp"
+        android:textSize="20sp"
         android:hint="enter message "
         android:background="#ffffff"
-        android:layout_margin="20dp"/>
+        android:layout_margin="20dp"
+        android:textAlignment="center"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -33,16 +34,19 @@
         android:ems="10"
         android:id="@+id/passInput"
         android:hint="enter chosen password "
-        android:textSize="30sp"
+        android:textSize="20sp"
         android:background="#ffffff"
-        android:layout_margin="20dp"/>
+        android:layout_margin="20dp"
+        android:textAlignment="center"/>
 
     <Button
-        android:text="Save into text"
+        android:text="Encrypt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button1"
-        android:onClick="buttonOnClick2"/>
+        android:onClick="buttonOnClick2"
+        android:layout_margin="30dp"
+        android:textAlignment="center"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -50,7 +54,7 @@
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/textOutput"
-
+        android:textAlignment="center"
         android:layout_margin="20dp"
         android:layout_weight="0.04"
         android:textColor="#ffffff"/>
