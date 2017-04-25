@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="1">
+    android:weightSum="1"
+    android:background="@color/colorPrimaryDark">
 
     <TextView
         android:text="@string/action_encryption"
@@ -12,24 +13,29 @@
         android:id="@+id/textView3"
         android:textSize="30sp"
         android:textAlignment="center"
-        android:textColor="@color/colorPrimaryDark"/>
+        android:textColor="@color/black"/>
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/txtInput"
-        android:hint="enter message " />
+        android:textSize="30sp"
+        android:hint="enter message "
+        android:background="#ffffff"
+        android:layout_margin="20dp"/>
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/passInput"
         android:hint="enter chosen password "
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:background="#ffffff"
+        android:layout_margin="20dp"/>
 
     <Button
         android:text="Save into text"
@@ -45,6 +51,8 @@
         android:ems="10"
         android:id="@+id/textOutput"
 
-        android:layout_weight="0.04" />
+        android:layout_margin="20dp"
+        android:layout_weight="0.04"
+        android:textColor="#ffffff"/>
 
 </LinearLayout>
