@@ -12,5 +12,10 @@
     <string name="the_users_name_was">The Users Name was</string>
     <string name="Main_Menu">Main Menu</string>
     <string name="how_to_use">how to use this app</string>
+    <string name="aboutMessage">EncryptionBuddy is a simple and straight forward Encryption App
+    that allows you to send secret text messages to people with a password to unlock the message
+    Encrypt is to create the secret message and Decrypt is to reveal the secret message</string>
+    <string name="by">By</string>
+    <string name="rees">Rees Ringrose</string>
 
 </resources>
